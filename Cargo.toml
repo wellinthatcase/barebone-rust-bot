@@ -1,0 +1,12 @@
+[package]
+name = "gunna"
+version = "0.1.0"
+authors = ["wellinthatcase"]
+edition = "2018"
+
+[dependencies]
+toml = "0.5.6"
+tokio = "0.2.21"
+serde = "1.0.114"
+tokio-postgres = "0.5.4"
+serenity = { git = "https://github.com/Lakelezz/serenity/", branch = "await", default-features = true }
